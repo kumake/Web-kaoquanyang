@@ -1,0 +1,130 @@
+@charset "gb2312";
+html,body,div,table,th,td,p,ul,li,aa,dl,dt,dd{ font-family:Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; padding: 0px; margin:0px; color:#787878}
+body{ text-align:center}
+div{ overflow:hidden}
+a{ text-decoration:none; outline:none; }
+table,th,td{ border-collapse:collapse; border-spacing:0px; vertical-align:top}
+ul,li{ list-style-type:none; background-repeat:no-repeat}
+#container{ margin:0px auto;width:1003px; text-align:left}
+a:link{ color:#787878}/*常规，非访问超链接*/
+a:visited{ color:#787878}/*访问超链接*/
+a:hover { color:#333333; text-decoration: none}/*访问者操作鼠标通过时的链接 */
+a:active{ color:#990000; text-decoration:underline}/*点击链接*/
+img{ border:none}
+
+/*分页样式*/
+#Divpage{width:290px; margin:0 auto; text-align:center; padding-left:10px; padding-top:18px;}
+#Divpage li{ float:left; width:auto; padding:2px;}
+#Divpage li a { color:#333; font-size:12px; }
+#Divpage li a:visited { color:#333; font-size:12px; }
+#Divpage li a:hover { color:#0079b8; font-size:12px; }
+
+
+/*sidebar类别*/
+.proLi{ width:160px; line-height:30px; border-bottom:#CCCCCC solid 1px; display:block; background:url(../images/li.jpg) no-repeat 30px 50%; padding-left:50px; margin-left:32px;}
+
+a.nav{ width:100px; text-align:center; display:block; float:left; color:#FFFFFF; line-height:30px;}
+
+#nav{
+margin-left:5px;
+}
+
+#nav li{
+line-height:41px;
+font-size:14px;
+display:inline;
+font-weight:bold;
+}
+
+
+#neiye_main{
+margin:10px 10px;
+}
+neiye_text{
+line-height:25px;
+}
+
+#tscm_head{
+background:#ddd;
+height:30px;
+}
+
+#tscm_head th{
+font-size:14px;
+line-height:30px;
+color:#333;
+}
+
+.tscy{
+height:140px;
+}
+
+.tscy td{
+border-bottom:1px #ccc dashed;
+vertical-align:middle;
+font-size:14px;
+color:#777;
+}
+
+.tscy_pic{
+margin-left:10px;
+width:190px;
+height:120px;
+border:1px #ccc solid;
+}
+
+.tscy_pic img{
+margin-left:10px;
+margin-top:2px;
+}
+
+.csjs{
+width:230px;
+color:#555;
+font-size:13px;
+}
+
+#index_jdjs{
+width:375px;
+margin-left:10px;
+}
+#index_jdjs p{
+line-height:20px;
+}
+
+#index_lxwm{
+margin-left:30px;
+}
+#index_lxwm p{
+font-size:13px;
+line-height:40px;
+}
+
+#index_news{
+margin-left:10px;
+
+}
+
+#index_news li{
+line-height:20px;
+font-size:12px;
+}
+
+
+
+#index_csfc{
+margin-left:10px;
+width:90%;
+padding-top:5px;
+}
+#index_csfc p{
+font-size:12px;
+line-height:20px;
+}
+
+#index_qh{
+width:235px;
+height:170px;
+margin-left:7px;
+margin-top:5px;
+}
